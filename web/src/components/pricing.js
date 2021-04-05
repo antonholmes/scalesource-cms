@@ -51,7 +51,7 @@ const Pricing = ({ title, transparentCTAs }) => {
             </div>
             <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
               <div className="w-full pt-6 text-4xl font-bold text-center">
-                $69 <span className="text-base">/ per month</span>
+                $69 <span className="text-base">per month</span>
               </div>
               <div className="flex items-center justify-center">
                 <button className={btnClassName}>Sign Up</button>
@@ -74,7 +74,7 @@ const Pricing = ({ title, transparentCTAs }) => {
             </div>
             <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
               <div className="w-full pt-6 text-3xl text-gray-600 font-bold text-center">
-                £x.99 <span className="text-base">/ per user</span>
+                $99 <span className="text-base">per month</span>
               </div>
               <div className="flex items-center justify-center">
                 <button className={btnClassName}>Sign Up</button>
