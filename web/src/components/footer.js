@@ -34,44 +34,49 @@ const Footer = ({ siteTitle }) => (
         </div>
 
         <div className="flex-1">
-          <p className="uppercase text-gray-500 md:mb-6">Links</p>
+          <p className="uppercase text-gray-500 md:mb-6">Employers</p>
           <ul className="list-reset mb-6">
             <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a href="https://www.tailwindtoolbox.com/templates/landing-page">
+              <a href="/">
                 <span className="hover:underline text-gray-800 hover:text-orange-500">
-                  Page theme
+                  How it works
                 </span>
               </a>
             </li>
             <li className="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
-                href="https://sanity.io/docs"
+                href="/"
                 className="no-underline hover:underline text-gray-800 hover:text-orange-500"
               >
-                Sanity Help
+                Register
               </a>
             </li>
             <li className="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
-                href="https://slack.sanity.io"
+                href="/"
                 className="no-underline hover:underline text-gray-800 hover:text-orange-500"
               >
-                Slack Community
+                Post a job
               </a>
             </li>
           </ul>
         </div>
         <div className="flex-1">
-          <p className="uppercase text-gray-500 md:mb-6">Legal</p>
+          <p className="uppercase text-gray-500 md:mb-6">Workers</p>
           <ul className="list-reset mb-6">
             <li className="mt-2 inline-block mr-2 md:block md:mr-0">
               <span className="no-underline hover:underline text-gray-800 hover:text-orange-500">
-                Terms
+                How it works
               </span>
             </li>
             <li className="mt-2 inline-block mr-2 md:block md:mr-0">
               <span className="no-underline hover:underline text-gray-800 hover:text-orange-500">
-                Privacy
+                Register
+              </span>
+            </li>
+            <li className="mt-2 inline-block mr-2 md:block md:mr-0">
+              <span className="no-underline hover:underline text-gray-800 hover:text-orange-500">
+                Post your skills
               </span>
             </li>
           </ul>

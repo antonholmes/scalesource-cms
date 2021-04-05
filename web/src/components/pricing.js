@@ -19,14 +19,15 @@ const Pricing = ({ title, transparentCTAs }) => {
             <div className="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
               <div className="p-8 text-3xl font-bold text-center border-b-4">Free</div>
               <ul className="w-full text-center text-sm">
-                <li className="border-b py-4">Thing</li>
-                <li className="border-b py-4">Thing</li>
-                <li className="border-b py-4">Thing</li>
+                <li className="border-b py-4">Up to 3 Job Posts</li>
+                <li className="border-b py-4">2 days Job Post approval</li>
+                <li className="border-b py-4">View Job Applications</li>
+                <li className="border-b py-4">Bookmark Workers</li>
               </ul>
             </div>
             <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
               <div className="w-full pt-6 text-3xl text-gray-600 font-bold text-center">
-                £0 <span className="text-base">for one user</span>
+                FREE <span className="text-base">FOREVER</span>
               </div>
               <div className="flex items-center justify-center">
                 <button className={btnClassName}>Sign Up</button>
@@ -36,18 +37,21 @@ const Pricing = ({ title, transparentCTAs }) => {
 
           <div className="flex flex-col w-5/6 lg:w-1/3 mx-auto lg:mx-0 rounded-lg bg-white mt-4 sm:-mt-6 shadow-lg z-10">
             <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-              <div className="w-full p-8 text-3xl font-bold text-center">Basic</div>
+              <div className="w-full p-8 text-3xl font-bold text-center">Pro</div>
               <div className="h-1 w-full gradient my-0 py-0 rounded-t"></div>
               <ul className="w-full text-center text-base font-bold">
-                <li className="border-b py-4">Thing</li>
-                <li className="border-b py-4">Thing</li>
-                <li className="border-b py-4">Thing</li>
-                <li className="border-b py-4">Thing</li>
+                <li className="border-b py-4">Up to 3 Job Posts</li>
+                <li className="border-b py-4">Instant days Job Post approval</li>
+                <li className="border-b py-4">View Job Applications</li>
+                <li className="border-b py-4">Bookmark Workers</li>
+                <li className="border-b py-4">Read Worker Reviews</li>
+                <li className="border-b py-4">Hire workers</li>
+                <li className="border-b py-4">Contact 75 workers/month</li>
               </ul>
             </div>
             <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
               <div className="w-full pt-6 text-4xl font-bold text-center">
-                £x.99 <span className="text-base">/ per user</span>
+                $69 <span className="text-base">/ per month</span>
               </div>
               <div className="flex items-center justify-center">
                 <button className={btnClassName}>Sign Up</button>
@@ -57,11 +61,15 @@ const Pricing = ({ title, transparentCTAs }) => {
 
           <div className="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
             <div className="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
-              <div className="p-8 text-3xl font-bold text-center border-b-4">Pro</div>
+              <div className="p-8 text-3xl font-bold text-center border-b-4">Premium</div>
               <ul className="w-full text-center text-sm">
-                <li className="border-b py-4">Thing</li>
-                <li className="border-b py-4">Thing</li>
-                <li className="border-b py-4">Thing</li>
+                <li className="border-b py-4">Up to 10 Job Posts</li>
+                <li className="border-b py-4">Instant days Job Post approval</li>
+                <li className="border-b py-4">View Job Applications</li>
+                <li className="border-b py-4">Bookmark Workers</li>
+                <li className="border-b py-4">Read Worker Reviews</li>
+                <li className="border-b py-4">Hire workers</li>
+                <li className="border-b py-4">Contact 500 workers/month</li>
               </ul>
             </div>
             <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
