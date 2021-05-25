@@ -13,13 +13,13 @@ export default {
               sites: [
                 {
                   buildHookId: '606aee98407c81e67eea1fa3',
-                  title: 'Sanity Studio',
+                  title: 'ScaleSource Studio',
                   name: 'scalesource-cms-studio',
                   apiId: '768197c6-44bd-4fac-a02f-0c293fe66bb7'
                 },
                 {
                   buildHookId: '606aee98407c81e825ea1e43',
-                  title: 'Blog Website',
+                  title: 'ScaleSource App',
                   name: 'scalesource-cms',
                   apiId: '4bbd6d35-8868-4cab-81b0-30b93395666b'
                 }
